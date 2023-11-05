@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Nav from './components/nav/Nav';
+import Landing from './components/landing_page/Landing';
+import Select_vehicle from './components/select_vehicle/Select_vehicle';
+import Popular from './components/popular_categories/Popular';
+import Top_deal from './components/topdeal/Top_deal';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav/>
+      <Landing/>
+      <Select_vehicle/>
+      <Popular/>
+      <Top_deal/>
     </div>
   );
 }

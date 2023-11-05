@@ -1,0 +1,55 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 20px;
+  background-color: #ffffff; // Change the background color as needed
+}
+
+.link-white {
+  color: rgb(0, 0, 0);
+  transition: color 0.3s;
+
+  &:hover{
+    color: #FC4337;
+  }
+
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  .logo-text {
+    font-size: 35px;
+    color: #000000; // Change the color as needed
+  }
+}
+
+.span-quest {
+  color: #FC4337;
+  padding-left: 2px;
+}
+
+.checkout-logo {
+  font-size: 30px;
+  color: #000000; // Change the color as needed
+}
+
+.ant-menu-horizontal {
+  background-color: transparent;
+}
+
+.ant-menu-item {
+  font-size: 20px;
+  color: #000000; // Change the color as needed
+}
+
+.ant-menu-item-selected {
+  color: #FC4337;
+}
+
+.ant-menu-dark .ant-menu-item-selected {
+  background-color: transparent;
+}

@@ -1,0 +1,177 @@
+.category {
+    height: 130%;
+    background-color: black;
+
+}
+
+.popularflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head_popular {
+    color: aliceblue;
+    padding-top: 70px;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.icon_popular {
+    color: aliceblue;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.icon_wheel {
+    font-size: 27px;
+    padding: 0px 4px;
+}
+
+.minus1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.minus_first {
+    padding-top: 4px;
+    font-size: 35px;
+    position: relative;
+    top: -10px;
+}
+
+.minus_secondone {
+    position: relative;
+    top: -40px;
+    font-size: 20px;
+    left: 13px;
+}
+
+.minus_secondtwo {
+    position: relative;
+    top: -40px;
+    font-size: 20px;
+    left: 2.25px;
+}
+
+.car_shop {
+    padding-top: 90px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 450px 450px;
+    gap: 2% 5%;
+    grid-auto-flow: row;
+    justify-content: center;
+    align-content: center;
+    /* position: relative;
+    overflow: hidden; */
+    
+    width: 100%;
+    grid-template-areas:
+        "car1 car2 car3"
+        "car4 car5 car6";
+        
+}
+
+
+.car1 {
+    grid-area: car1;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    width: 400px ;
+    height:400px ;
+}
+
+.car2 {
+    grid-area: car2;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    width: 400px ;
+    height:400px ;
+}
+
+.car3 {
+    grid-area: car3;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    width: 400px ;
+    height:400px ;
+}
+
+.car4 {
+    grid-area: car4;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    width: 400px ;
+    height:400px ;
+}
+
+.car5 {
+    grid-area: car5;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    width: 400px ;
+    height:400px ;
+}
+
+.car6 {
+    grid-area: car6;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    width: 400px ;
+    height:400px ;
+}
+
+.car_img{
+    /* border-color: rgb(255, 255, 255);
+    border-style: solid; */
+    width: 400px ;
+    height:400px ;
+    object-fit:cover ;
+    opacity: 0.4;
+    position: absolute;
+
+}
+.header_car{
+
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    width: 100%;
+    height: fit-content;
+    margin: auto;
+
+}
+.car_head{
+    letter-spacing: 1px;
+    font-weight: 500;
+    
+}
+.button_shop1{
+    background-color: #fc443791;
+    color: white;
+    position: absolute;
+    top: 150%;
+    width: 40%;
+    right: 30%;
+    border: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.shop_now1{
+    font-weight: 100;
+}
+.show_nowlogo1{
+    padding-top: 12px;
+    padding-left: 5px;
+    font-size: 25px;
+    
+}
+

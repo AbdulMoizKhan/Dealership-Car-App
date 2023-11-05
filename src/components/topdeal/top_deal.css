@@ -1,0 +1,195 @@
+.td {
+    height: 100vh;
+}
+
+.top_deals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading_td {
+
+    padding-top: 70px;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+
+.icon_popular2 {
+    color: #fc4437;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.icon_wheel2 {
+    font-size: 27px;
+    padding: 0px 4px;
+}
+
+.minus12 {
+    display: flex;
+    flex-direction: column;
+}
+
+.minus_first2 {
+    padding-top: 4px;
+    font-size: 35px;
+    position: relative;
+    top: -10px;
+}
+
+.minus_secondone2 {
+    position: relative;
+    top: -40px;
+    font-size: 20px;
+    left: 13px;
+}
+
+.minus_secondtwo2 {
+    position: relative;
+    top: -40px;
+    font-size: 20px;
+    left: 2.25px;
+}
+
+.options_brands {
+    display: flex;
+    flex-direction: row;
+}
+
+.brand {
+    padding-right: 10px;
+}
+
+.option_brand_btn {
+    font-size: medium;
+    box-sizing: border-box;
+    width: 150px;
+    height: 40px;
+    background: white;
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+}
+
+.option_brand_btn:hover {
+
+    transform: scale(1.05);
+}
+
+.option_brand_btn:active {
+    background-color: red;
+    color: white;
+}
+
+.option_brand_btn::before {
+    background-color: white;
+    color: black;
+}
+
+.option_brand_btn::after {
+    background-color: red;
+    color: white;
+}
+
+.cars {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+}
+
+.td_cars {
+    padding-right: 90px;
+}
+
+.car_detail {
+    width: 400px;
+    height: 450px;
+    background: white;
+    border-radius: 2px;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    display: flex;
+    flex-direction: column;
+}
+
+.shadow {
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgb(190, 190, 190),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.td_img {
+    height: 250px;
+    width: 350px;
+    margin: 20px 23px;
+    border-radius: 5px;
+}
+
+.car_tittle {
+    padding-left: 30px;
+    padding-bottom: 10px;
+    font-size: medium;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.rs {
+
+    padding-bottom: 10px;
+    font-size: medium;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fc4437;
+    border-bottom: 1px solid grey;
+    margin: 0px 30px;
+}
+
+.detail {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+.icon_car_details {
+    font-size: 25px;
+    padding-right: 5px;
+    color: grey;
+
+}
+
+.mileage {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.auto_manual {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pet_dies {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
