@@ -7,6 +7,20 @@ import { GiGearStickPattern } from 'react-icons/gi';
 import { BsSpeedometer2 } from 'react-icons/bs';
 import { BiGasPump } from 'react-icons/bi';
 import { Element } from 'react-scroll';
+import camry from '../../assets/camry.png';
+import toyotafurtu from '../../assets/toyotafurtu.png';
+import suzukialto from '../../assets/suzukialto.png'
+import swift from '../../assets/swift.png'
+import cultus from '../../assets/cultus.png'
+import MGZS from '../../assets/MGZS.png';
+import MGhector2 from '../../assets/MGhector2.png';
+import MGgloster from '../../assets/MGgloster.png';
+import Kiapicanto from '../../assets/Kiapicanto.png';
+import Kiacarnival from '../../assets/Kiacarnival.png';
+import Kiasportage from '../../assets/Kiasportage.png';
+import Hyundaiaccent from '../../assets/Hyundaiaccent.png';
+import Hyundaisanta from '../../assets/Hyundaisanta.png';
+import Hyundaituscan from '../../assets/Hyundaituscan.png';
 
 const Toyota = [
     {
@@ -22,7 +36,7 @@ const Toyota = [
         price: 'PKR 3,500,000',
         mileage: '14 km/l',
         manual_auto: 'Automatic',
-        image: civix,
+        image: camry,
         petrol_diesel: 'Petrol',
     },
     {
@@ -30,7 +44,7 @@ const Toyota = [
         price: 'PKR 4,000,000',
         mileage: '10 km/l',
         manual_auto: 'Manual',
-        image: civix,
+        image: toyotafurtu,
         petrol_diesel: 'Petrol',
     },
 ];
@@ -40,7 +54,7 @@ const Suzuki = [
         price: 'PKR 1,200,000',
         mileage: '20 km/l',
         manual_auto: 'Manual',
-        image: civix,
+        image: suzukialto,
         petrol_diesel: 'Petrol',
     },
     {
@@ -48,7 +62,7 @@ const Suzuki = [
         price: 'PKR 1,800,000',
         mileage: '18 km/l',
         manual_auto: 'Automatic',
-        image: civix,
+        image: swift,
         petrol_diesel: 'Petrol',
     },
     {
@@ -56,25 +70,25 @@ const Suzuki = [
         price: 'PKR 1,500,000',
         mileage: '16 km/l',
         manual_auto: 'Manual',
-        image: civix,
+        image: cultus,
         petrol_diesel: 'Petrol',
     },
 ];
 const Kia = [
     {
-        name: 'Kia Rio',
+        name: 'Kia Picanto',
         price: 'PKR 1,400,000',
         mileage: '22 km/l',
         manual_auto: 'Automatic',
-        image: civix,
+        image: Kiapicanto,
         petrol_diesel: 'Petrol',
     },
     {
-        name: 'Kia Seltos',
+        name: 'Kia Carnival',
         price: 'PKR 2,000,000',
         mileage: '20 km/l',
         manual_auto: 'Automatic',
-        image: civix,
+        image: Kiacarnival,
         petrol_diesel: 'Petrol',
     },
     {
@@ -82,7 +96,7 @@ const Kia = [
         price: 'PKR 2,500,000',
         mileage: '18 km/l',
         manual_auto: 'Automatic',
-        image: civix,
+        image: Kiasportage,
         petrol_diesel: 'Petrol',
     },
 ];
@@ -92,7 +106,7 @@ const MG = [
         price: 'PKR 1,600,000',
         mileage: '19 km/l',
         manual_auto: 'Automatic',
-        image: civix,
+        image: MGZS,
         petrol_diesel: 'Petrol',
     },
     {
@@ -100,7 +114,7 @@ const MG = [
         price: 'PKR 2,200,000',
         mileage: '17 km/l',
         manual_auto: 'Automatic',
-        image: civix,
+        image: MGhector2,
         petrol_diesel: 'Petrol',
     },
     {
@@ -108,7 +122,7 @@ const MG = [
         price: 'PKR 3,500,000',
         mileage: '15 km/l',
         manual_auto: 'Automatic',
-        image: civix,
+        image: MGgloster,
         petrol_diesel: 'Petrol',
     },
 ];
@@ -118,7 +132,7 @@ const Hyundai = [
         price: 'PKR 1,300,000',
         mileage: '21 km/l',
         manual_auto: 'Manual',
-        image: civix,
+        image: Hyundaiaccent,
         petrol_diesel: 'Petrol',
     },
     {
@@ -126,7 +140,7 @@ const Hyundai = [
         price: 'PKR 2,000,000',
         mileage: '18 km/l',
         manual_auto: 'Automatic',
-        image: civix,
+        image: Hyundaisanta,
         petrol_diesel: 'Petrol',
     },
     {
@@ -134,7 +148,7 @@ const Hyundai = [
         price: 'PKR 2,800,000',
         mileage: '16 km/l',
         manual_auto: 'Automatic',
-        image: civix,
+        image: Hyundaituscan,
         petrol_diesel: 'Petrol',
     },
 ];

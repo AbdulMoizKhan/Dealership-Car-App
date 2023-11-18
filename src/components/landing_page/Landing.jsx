@@ -2,7 +2,7 @@ import React from 'react'
 import './landing.css'
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { AiOutlineMinus } from 'react-icons/ai';
-
+import curve from '../../assets/curve.svg'
 
 const Landing = () => {
     return (
@@ -23,7 +23,9 @@ const Landing = () => {
                     <div className='show_nowlogo'><HiArrowNarrowRight /></div>
                     </button></div>
             </div>
-            <div className='picture'></div>
+            <div className='picture'>
+                <img src="curve.svg" alt="" />
+            </div>
         </div>
     )
 }
