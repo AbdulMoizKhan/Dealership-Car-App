@@ -69,3 +69,10 @@
     padding-left: 5px;
     font-size: 25px;
 }
+
+.landing_img{
+    background-size: 700px 900px; /* Width and Height */
+    background-color: transparent; /* This ensures the background color is transparent */
+    width: 700px; /* Set the width of the container to the width of the image */
+    height: 900px; 
+}

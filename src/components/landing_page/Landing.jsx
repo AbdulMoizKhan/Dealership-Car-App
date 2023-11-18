@@ -2,7 +2,7 @@ import React from 'react'
 import './landing.css'
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import { AiOutlineMinus } from 'react-icons/ai';
-import curve from '../../assets/curve.svg'
+import corollaa from '../../assets/corollaa.png';
 
 const Landing = () => {
     return (
@@ -24,7 +24,7 @@ const Landing = () => {
                     </button></div>
             </div>
             <div className='picture'>
-                <img src="curve.svg" alt="" />
+                <img src={corollaa} alt=""  className='landing_img'/>
             </div>
         </div>
     )
